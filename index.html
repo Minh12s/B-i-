@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha5121ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <title>Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="images/logo.svg" alt="" /></div>
+            <div class="image"></div>
+            <div class="text">Start for free & get<br />attractive offers today !</div>
+            </div>
+        </div>
+        <form action="#" id="form" method="post">
+            <div>
+                <div class="social">
+                    <div class="title">Get Started</div>
+                    <div class="question">
+                        Already Have an account?<br />
+                        <span>Sign In</span>
+                    </div>
+                    <div class="bth">
+                        <div class="bth-1">
+                            <img src="https://img.icons8.com/color/48/00000/google-logo.png" />
+                        </div>
+                        <div class="btn-2">
+                            <img src="https://img.icons8.com/ios-filled/30/fffff/facebook-new.png"/>
+                            Sign Up
+                        </div>
+                    </div>
+                </div>
+                <div class="or">Or</div>
+            </div>
+            <!--User Name input-->
+            <div>
+                <label for="username">User name</label>
+                <i class="fas fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="James bond">
+                <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!--Email input-->
+            <div> 
+                <label for="email">Email</label>
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="bond@gmail.com">
+                <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <!--Password input-->
+            <div>
+                <label for="username">Password</label>
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password here">
+                <i class="fa-sharp fa-solid fa-circle-exclamation failure-icon"></i>
+                <i class="fa-solid fa-circle-check success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
